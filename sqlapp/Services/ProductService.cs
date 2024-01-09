@@ -8,8 +8,8 @@ namespace sqlapp.Services
     public class ProductService
     {
         private static string db_source = "appservcer.database.windows.net";
-        private static string db_user = "sqlusr";
-        private static string db_password = "Azure@123";
+        private static string db_user = "sqluser";
+        private static string db_password = "Admin@123";
         private static string db_database = "appdb";
 
         private SqlConnection GetConnection()
